@@ -41,3 +41,26 @@ elif name1 != name2:
     pass
 else:
     print("name1 = name2")
+
+"""
+
+print("Test message")
+
+"""
+
+for i in 1, 2, 3, "sorry":
+    print(i)
+
+for o in "sorry":
+    print(o)
+
+# Список [], Кортедж()
+n = [1, 2, 3, "sorry"]
+for p in n:
+    print(p)
+
+m = [1, 2, 3, "sorry"]
+print(m[3])
+
+m.append(10)
+print(m[4])
