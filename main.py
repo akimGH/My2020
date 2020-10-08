@@ -64,3 +64,8 @@ print(m[3])
 
 m.append(10)
 print(m[4])
+
+o = 0
+while o < 10:
+    print(o)
+    o += 1
