@@ -24,3 +24,20 @@ name1 = int(input("Введите число "))
 name2 = int(input("Введите число "))
 print(name1 + name2)
 m += 1
+
+# Next
+
+name1 = 10
+name2 = 20
+
+if name1 == name2:
+    print("name1 > name2")
+if name1 >= name2 is True:
+    print("True")
+    pass
+elif name1 < name2:
+    print("name1 < name2")
+elif name1 != name2:
+    pass
+else:
+    print("name1 = name2")
